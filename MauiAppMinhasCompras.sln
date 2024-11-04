@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppMinhasCompras", "MauiAppMinhasCompras\MauiAppMinhasCompras.csproj", "{A08AF334-0A39-4951-AAC3-112F7A8910DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{AD33AB54-6779-445C-9285-1D8757CE5CD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{E02E5D4F-BFF1-4D8C-A9BE-45CA5A46FA22}"
+	ProjectSection(SolutionItems) = preProject
+		Produto.cs = Produto.cs
+		SQLiteDatabaseHelper.cs = SQLiteDatabaseHelper.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A08AF334-0A39-4951-AAC3-112F7A8910DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08AF334-0A39-4951-AAC3-112F7A8910DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08AF334-0A39-4951-AAC3-112F7A8910DB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A08AF334-0A39-4951-AAC3-112F7A8910DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08AF334-0A39-4951-AAC3-112F7A8910DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08AF334-0A39-4951-AAC3-112F7A8910DB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F8A4F24-373F-4995-B2EC-3F1E9E651692}
+	EndGlobalSection
+EndGlobal
